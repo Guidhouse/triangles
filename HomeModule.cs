@@ -4,9 +4,12 @@ namespace triangles
 
     public class HomeModule : NancyModule
     {
-        public HomeModule()
+        public HomeModule() 
         {
-            Get("/", args => "Hello from Nancy running on CoreCLR");
+            Get("/", parameters => {
+                var hostName = Context.Request.Url.HostName + ((Context.Request.Url.Port != 80)? ":" + Context.Request.Url.Port : ""); 
+              return  $"Try the URL: http://{hostName}/triange/a/b/c. Where a, b and c are proposed sidelengths of a triangle";
+            });
         }
     }
 }
