@@ -10,3 +10,5 @@ Service.test is a Xunit project for testing the underlying bussiness logic.
 After pulling from this repository, go to 'Service' and write 'dotnet restore' / 'dotnet run' to see if the basics works.
 
 In Service.test run the following commands 'dotnet restore' / 'dotnet test'. Hopefully all tests passes.
+
+For testing the endpoint, run the service , start postman and import the postman collection from the root-folder.
