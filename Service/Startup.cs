@@ -1,4 +1,4 @@
-namespace triangles
+namespace Triangles.Service
 {
     using Microsoft.AspNetCore.Builder;
     using Nancy.Owin;

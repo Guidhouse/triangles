@@ -1,4 +1,4 @@
-namespace triangles
+namespace Triangles.Service
 {
     using Nancy;
 

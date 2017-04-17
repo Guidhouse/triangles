@@ -1,2 +1,2 @@
-# triangles
-Just for trying out triangles on dotnet core
+# Triangles.Service
+Just for trying out Triangles.Service on dotnet core
