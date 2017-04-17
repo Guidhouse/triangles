@@ -1,5 +1,6 @@
 # Triangles.Service
 Trying out Triangles.Service on dotnet core
+
 It is assumed that dotnet core 1.0.1 is installed.
 
 There are two projects.
