@@ -1,0 +1,53 @@
+{
+	"id": "622a0684-de89-a684-abcc-ead8f39a82a4",
+	"name": "TriangleEndpointTest",
+	"description": "",
+	"order": [
+		"2da03457-722c-1716-50f0-a4d09daa80f2",
+		"fcae1a5f-cdba-d7d5-e7a6-6b0eaf52f0dd"
+	],
+	"folders": [],
+	"timestamp": 1492459978086,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "2da03457-722c-1716-50f0-a4d09daa80f2",
+			"headers": "Accept: application/json\n",
+			"url": "http://localhost:5000/",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1492460318894,
+			"name": "http://localhost:5000/",
+			"description": "",
+			"collectionId": "622a0684-de89-a684-abcc-ead8f39a82a4",
+			"responses": []
+		},
+		{
+			"id": "fcae1a5f-cdba-d7d5-e7a6-6b0eaf52f0dd",
+			"headers": "Accept: application/json\n",
+			"url": "http://localhost:5000/triangle/1/2/3",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "622a0684-de89-a684-abcc-ead8f39a82a4",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:5000/triangle/1/2/3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1492460224776,
+			"version": 2,
+			"responses": [],
+			"tests": "\ntests[\"Body is 'Andet'\"] = responseBody === \"Andet\";",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
