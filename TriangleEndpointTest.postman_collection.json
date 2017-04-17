@@ -1,10 +1,11 @@
 {
-	"id": "622a0684-de89-a684-abcc-ead8f39a82a4",
+	"id": "09af9d7a-daf8-2bed-85d7-addb610bac1b",
 	"name": "TriangleEndpointTest",
 	"description": "",
 	"order": [
-		"2da03457-722c-1716-50f0-a4d09daa80f2",
-		"fcae1a5f-cdba-d7d5-e7a6-6b0eaf52f0dd"
+		"6cf8c774-a346-8a2a-da62-525a31635077",
+		"b80a1fcc-955a-9402-5ba6-26682ced7bd2",
+		"631b742c-a6cd-a03f-76d5-b832815fb560"
 	],
 	"folders": [],
 	"timestamp": 1492459978086,
@@ -12,7 +13,27 @@
 	"public": false,
 	"requests": [
 		{
-			"id": "2da03457-722c-1716-50f0-a4d09daa80f2",
+			"id": "631b742c-a6cd-a03f-76d5-b832815fb560",
+			"headers": "Accept: application/json\n",
+			"url": "http://localhost:5000/triangle/1/2/a",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "09af9d7a-daf8-2bed-85d7-addb610bac1b",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:5000/triangle/1/2/a",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1492462610914,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"NonIntegers as parameters\"] = responseBody.has(\"integers\");\n",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6cf8c774-a346-8a2a-da62-525a31635077",
 			"headers": "Accept: application/json\n",
 			"url": "http://localhost:5000/",
 			"preRequestScript": null,
@@ -26,17 +47,17 @@
 			"time": 1492460318894,
 			"name": "http://localhost:5000/",
 			"description": "",
-			"collectionId": "622a0684-de89-a684-abcc-ead8f39a82a4",
+			"collectionId": "09af9d7a-daf8-2bed-85d7-addb610bac1b",
 			"responses": []
 		},
 		{
-			"id": "fcae1a5f-cdba-d7d5-e7a6-6b0eaf52f0dd",
+			"id": "b80a1fcc-955a-9402-5ba6-26682ced7bd2",
 			"headers": "Accept: application/json\n",
 			"url": "http://localhost:5000/triangle/1/2/3",
 			"pathVariables": {},
 			"preRequestScript": null,
 			"method": "GET",
-			"collectionId": "622a0684-de89-a684-abcc-ead8f39a82a4",
+			"collectionId": "09af9d7a-daf8-2bed-85d7-addb610bac1b",
 			"data": null,
 			"dataMode": "params",
 			"name": "http://localhost:5000/triangle/1/2/3",

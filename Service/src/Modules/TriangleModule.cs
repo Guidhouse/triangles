@@ -20,7 +20,7 @@ namespace Triangles.Service
                 }
                 else
                 {
-                    return "One or more of the parameters are no integers. Please try again";
+                    return "One or more of the parameters are not integers. Please try again";
                 }
             });
         }
