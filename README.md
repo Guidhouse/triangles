@@ -4,7 +4,7 @@ Trying out Triangles.Service on dotnet core
 It is assumed that dotnet core 1.0.1 is installed.
 
 There are two projects.
-Service is a service-endpoint with two nancy-modules: Home in the root and triangles/a/b/c for requesting analysis of triangles. http://localhost:5000/ gives a brief instruction on how to use the service.
+Service is a service-endpoint with two nancy-modules: Home in the root and triangles/a/b/c for requesting analysis of triangles. http://localhost:5000/ (if the service is run locally) gives a brief instruction on how to use the service.
 
 On bigger solutions swagger would be the obvious choise for documenting a service for third party clients.
 
